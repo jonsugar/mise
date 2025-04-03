@@ -8,7 +8,7 @@ use App\Steps\Laravel\InstallBreeze;
 
 class LaravelBreezeStarterKit extends Recipe
 {
-    public string $slug = 'laravel-breeze-starter-kit';
+    public string $key = 'laravel-breeze-starter-kit';
 
     public function __invoke(): void
     {
